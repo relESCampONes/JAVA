@@ -1,7 +1,7 @@
 public class OutraCondicional {
     public static void main(String[] args) {
 
-        int pos = 2;
+        int pos = 1;
 
         switch(pos){
             case 1:
@@ -26,3 +26,4 @@ public class OutraCondicional {
         
     }
 }
+
