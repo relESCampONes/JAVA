@@ -13,6 +13,6 @@ public class TiposVariaveis {
         System.out.print("Helloooo!!!!\n");
         System.out.print("World!!!!!!\n");
         System.out.printf("Reles: %s%nDe: %d%n","programador",1941);
-        System.out.printf("Valor da variavel res: %d%nNome: %s",res,nome);
+        System.out.printf("Valor da variável res: %d%nNome: %s",res,nome);
     }
 }
