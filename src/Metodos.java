@@ -8,7 +8,10 @@ public class Metodos {
         somarTudo(2,3,4,5,100,100,234);
         somarTudo(23.4,44.3);
         // System.out.println(somar(9,9)); --- Para imprimir no método principal, ficar atento ao return, pois necessitará de uma variável 
+        multiplicar(2.0,3.0,5.0,5.0);
     }
+
+
 
     public static void msg(String mensagem, int quantidade){
         for(int indice = 0; indice < quantidade; indice++){
@@ -41,6 +44,15 @@ public class Metodos {
             resultado += n;
         }
         System.out.printf("\n%.2f", resultado);
+        return 0.0;
+
+    }
+    public static Double multiplicar(Double... multiplicadores){
+        Double resposta = 1.0;
+        for(Double number : multiplicadores){
+            resposta *= number;
+        }
+        System.out.printf("\n%.2f", resposta);
         return 0.0;
 
     }
