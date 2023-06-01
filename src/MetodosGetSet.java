@@ -7,9 +7,9 @@ public class MetodosGetSet {
         Jogador j2 = new Jogador(++num);
         Jogador j3 = new Jogador(++num);
 
-        j1.setVidas(4);
-        j2.setVidas(3);
-        j3.setVidas(2);
+        j1.setVidas(0);
+        j2.setVidas(0);
+        j3.setVidas(0);
 
         j1.addVidas(-3);
         j2.addVidas(-1);
